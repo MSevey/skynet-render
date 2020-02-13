@@ -1,0 +1,27 @@
+{
+    "name":"Skynet Render",
+    "version":"1.0",
+    "description":"This renders a sia link from Skynet",
+
+    "permissions": ["storage","activeTab","tabs"],
+
+    "omnibox":{
+        "keyword":"skynet"
+    },
+
+    "background": {
+        "scripts":["background.js"],
+        "persistent": false
+    },
+
+    "browser_action":{},
+
+    "icons": {
+        "16":"icon.png",
+        "32":"icon.png",
+        "48":"icon.png",
+        "128":"icon.png"
+    },
+
+    "manifest_version":2
+}
